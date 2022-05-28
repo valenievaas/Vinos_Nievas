@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap');
+
+:root{
+    font-family: 'Montserrat', sans-serif;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+/* Inicio Header */
+.navColor{
+    background-color: #05183c;
+}
+/* Fin Header */
+/* Inicio Main */
+.slide1 {
+    background-image: url(../assets/img/slide1.jpg);
+}
+
+.slide2 {
+    background-image: url(../assets/img/slide2.jpg);
+}
+
+.slide3 {
+    background-image: url(../assets/img/slide4.jpg);
+}
+
+.carousel-item{
+    height: 30rem;
+    background-position: center;
+    background-size: cover;
+}
+/* Fin Main */
+/* Inicio Section */
+
+.bgColor{
+    background-color: #101217;
+}
+
+.bgColor h1{
+    text-align: center;
+    text-shadow: 1px 1px 2px rgb(68, 68, 68);
+}
+
+.bgColor p{
+    text-align: center;
+    font-size: 18px;
+}
+
+
+
+
+
+
+/* Fin Section */
