@@ -9,12 +9,17 @@
     margin: 0;
     box-sizing: border-box;
 }
+
 /* Inicio Header */
+
 .navColor{
     background-color: #05183c;
 }
+
 /* Fin Header */
+
 /* Inicio Main */
+
 .slide1 {
     background-image: url(../assets/img/slide1.jpg);
 }
@@ -32,7 +37,9 @@
     background-position: center;
     background-size: cover;
 }
+
 /* Fin Main */
+
 /* Inicio Section */
 
 .bgColor{
@@ -49,9 +56,22 @@
     font-size: 18px;
 }
 
-
-
-
-
-
 /* Fin Section */
+
+/* Inicio Footer */
+
+footer{
+    height: 100px;
+    background-color: #05183c;
+    width: 100%;
+}
+
+.redes{
+    color: white;
+}
+
+.ft{
+    text-shadow: 2px 2px 3px rgb(68, 68, 68);
+}
+
+/* Fin Footer */
