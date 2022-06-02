@@ -62,6 +62,20 @@
     font-size: 18px;
 }
 
+.textI::first-letter{
+    font-size: 25px;
+}
+
+.textI:hover{
+    color: #808080;
+    transition: 1s;
+}
+
+section h1:hover{
+    color: #808080;
+    transition: 0.4s;
+}
+
 /* Fin Section */
 
 /* ======================================================================*/
@@ -92,17 +106,24 @@ footer{
     min-height: 1100px;
 }
 
-section h2{
+.sectionVN h2{
     text-shadow: 1px 1px 2px rgb(68, 68, 68);
+}
+
+.cardVN:hover{
+    transform: scale(1.10);
+    transition: 1s;
 }
 
 /* Fin section "productos" */
 
 /* ======================================================================*/
-/* Inicio Section "Productos"*/
+/* Inicio Section "Contacto"*/
 /* ======================================================================*/
 
 .contacto{
     height: 550px;
     background-color: #101217;
 }
+
+/* fin section "contacto" */
