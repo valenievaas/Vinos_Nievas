@@ -10,20 +10,13 @@
     box-sizing: border-box;
 }
 
-/* ======================================================================*/
-/* Inicio HEADER "all pages"*/
-/* ======================================================================*/
-
+/* inicio header */
 .navColor{
     background-color: #05183c;
 }
+/* fin header */
 
-/* Fin Header */
-
-/* ======================================================================*/
-/* Inicio Main "index"*/
-/* ======================================================================*/
-
+/* inicio main "index" */
 .slide1 {
     background-image: url(../assets/img/slide1.jpg);
 }
@@ -41,20 +34,16 @@
     background-position: center;
     background-size: cover;
 }
+/* fin main "index" */
 
-/* Fin Main "index" */
-
-/* ======================================================================*/
-/* Inicio Section "index"*/
-/* ======================================================================*/
-
+/* inicio section "index" */
 .bgColor{
     background-color: #101217;
 }
 
 .bgColor h1{
     text-align: center;
-    text-shadow: 1px 1px 2px rgb(68, 68, 68);
+    text-shadow: 1px 1px 2px #444444;
 }
 
 .bgColor p{
@@ -75,13 +64,9 @@ section h1:hover{
     color: #808080;
     transition: 0.4s;
 }
+/* fin section "index" */
 
-/* Fin Section */
-
-/* ======================================================================*/
-/* Inicio FOOTER "all pages"*/
-/* ======================================================================*/
-
+/* inicio footer */
 footer{
     height: 100px;
     background-color: #05183c;
@@ -89,41 +74,32 @@ footer{
 }
 
 .redes{
-    color: white;
+    color: #ffffff;
 }
 
 .ft{
-    text-shadow: 2px 2px 3px rgb(68, 68, 68);
+    text-shadow: 2px 2px 3px #444444;
 }
-
 /* Fin Footer */
 
-/* ======================================================================*/
-/* Inicio Section "Productos"*/
-/* ======================================================================*/
-
-.sectionVN{
+/* inicio section "productos" */
+.mainVN{
     min-height: 1100px;
 }
 
-.sectionVN h2{
-    text-shadow: 1px 1px 2px rgb(68, 68, 68);
+.mainVN h2{
+    text-shadow: 1px 1px 2px #444444;
 }
 
 .cardVN:hover{
     transform: scale(1.10);
     transition: 1s;
 }
-
 /* Fin section "productos" */
 
-/* ======================================================================*/
-/* Inicio Section "Contacto"*/
-/* ======================================================================*/
-
+/* inicio section "contacto */
 .contacto{
     height: 550px;
     background-color: #101217;
 }
-
 /* fin section "contacto" */
